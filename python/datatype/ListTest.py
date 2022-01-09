@@ -53,11 +53,15 @@ Set
 sites = {'Google', 'Taobao', 'Runoob', 'Facebook', 'Zhihu', 'Baidu','Runoob'}
 # 输出集合，重复的元素'Runoob'被自动去掉
 print(sites)
+sites.add('wangyi')
+sites.update({'xl','tx'})
+print(sites)
+print(len(sites))
 # 成员测试
-if 'Runoob' in sites:
-    print("Runoob 在集合sites中")
+if 'wangyi' in sites:
+    print("wangyi 在集合sites中")
 else:
-    print("Runoob 不在集合sites中")
+    print("wangyi 不在集合sites中")
 
 # set可以进行集合运算
 a = set('abracadabra')
