@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import openpyxl
 import matplotlib.pyplot as plt
 wk=openpyxl.load_workbook('/Users/liusongqing/pythone-study01-test.xlsx')
